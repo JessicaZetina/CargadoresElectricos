@@ -30,12 +30,11 @@
         </div>
         <nav class="menuppal">
             <ul>
-
                 <li><img src="./assets/HOME 1.png" alt=""></img><a href="#">Inicio</a></li>
                 <li><img src="./assets/AUTO 1.png" alt=""></img><a href="#">Mis vehículos</a></li>
                 <li><img src="./assets/CARD 1.png" alt=""></img><a href="#">Forma de pago</a></li>
                 <li><img src="./assets/RUTA 1.png" alt=""></img><a href="#">Planea tu ruta</a></li>
-                <li><img src="./assets/QR 2.png" alt=""></img><a href="#">Mis reservas</a></li>
+                <li><img src="./assets/QR 2.png"   alt=""></img><a href="#">Mis reservas</a></li>
             </ul>
         </nav>
     </section>
@@ -70,13 +69,17 @@
 
     <!--Calendario-->
     <section id="calendario">
-    </section>
+    
     <h1>Hacer reservación</h1>
     <p>Estación Alvaro Obregon</p>
-    <div class="calendario cuadros">
-        <input type="date" data-display-mode="inline" data-is-range="true" data-close-on-select="false">
-    </div>
-    <div>
+    <div class="column is-4">
+            <div class="calendar">
+            <div class="calendar-nav">
+              <div class="calendar-nav-left">
+                <button class="button is-link">
+                  <i class="fa fa-chevron-left"></i>
+                </button>
+              
         <h1>Horarios Disponibles</h1>
         <div class="select-hora">
             <select name="slct" id="slct">
@@ -88,6 +91,7 @@
         </div>
         ​
     </div>
+</section>
     <!--Modal-->
     <dialog id="confirm-modal" class="modal">
         <div class="modal-content">
@@ -112,7 +116,14 @@
                 </button>
     </form>
     </section>
-
+<section>
+    <h3>Los datos de tu reserva son</h3>
+       Estación:Tesla <br>
+       Dirección: Nieto, Zona Centro, 20000 Aguascalientes, Ags <br>
+       Fecha: 23 de noviembre 2019 <br>
+       Hora: 01:00 pm - 02:00 pm <br>
+    <img src="./.png" alt="">
+</section>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <!-- <script src="js/main.js"></script> -->
     <script src="../leaflet/leaflet.js"></script>
